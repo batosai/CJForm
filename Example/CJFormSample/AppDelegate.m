@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  CJForm
+//  CJFormSample
 //
 //  Created by Jeremy on 27/02/13.
 //  Copyright (c) 2013 chaufourier. All rights reserved.

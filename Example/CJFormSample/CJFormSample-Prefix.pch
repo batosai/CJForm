@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'CJForm' target in the 'CJForm' project
+// Prefix header for all source files of the 'CJFormSample' target in the 'CJFormSample' project
 //
 
 #import <Availability.h>
