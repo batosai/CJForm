@@ -13,15 +13,30 @@
 		3F4873EC16DEB45B0082AF70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F4873EA16DEB45B0082AF70 /* InfoPlist.strings */; };
 		3F4873EE16DEB45B0082AF70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4873ED16DEB45B0082AF70 /* main.m */; };
 		3F4873F216DEB45B0082AF70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4873F116DEB45B0082AF70 /* AppDelegate.m */; };
-		3F48740C16DEB4690082AF70 /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F4873FF16DEB4690082AF70 /* .gitkep */; };
-		3F48740D16DEB4690082AF70 /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F48740316DEB4690082AF70 /* .gitkep */; };
-		3F48740E16DEB4690082AF70 /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F48740516DEB4690082AF70 /* .gitkep */; };
-		3F48740F16DEB4690082AF70 /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F48740716DEB4690082AF70 /* .gitkep */; };
-		3F48741016DEB4690082AF70 /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F48740916DEB4690082AF70 /* .gitkep */; };
-		3F48741116DEB4690082AF70 /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F48740B16DEB4690082AF70 /* .gitkep */; };
 		3F48741516DEB5850082AF70 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F48741216DEB5850082AF70 /* Default-568h@2x.png */; };
 		3F48741616DEB5850082AF70 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F48741316DEB5850082AF70 /* Default.png */; };
 		3F48741716DEB5850082AF70 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F48741416DEB5850082AF70 /* Default@2x.png */; };
+		3F660B4B170CCC5000D4A217 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F660B4A170CCC5000D4A217 /* FormViewController.m */; };
+		3F660B561713571E00D4A217 /* AccelerometreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F660B551713571E00D4A217 /* AccelerometreViewController.m */; };
+		3F660B5817135AE400D4A217 /* son.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F660B5717135AE300D4A217 /* son.mp3 */; };
+		3F660B5A17135B0300D4A217 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F660B5917135B0200D4A217 /* AVFoundation.framework */; };
+		3F660B5F1713631100D4A217 /* UISelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F660B5E1713631100D4A217 /* UISelectTableViewController.m */; };
+		3FAF00FE17175B5200FD0A16 /* UIWindow+KeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00DD17175B5200FD0A16 /* UIWindow+KeyBoard.m */; };
+		3FAF00FF17175B5200FD0A16 /* CJFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00E217175B5200FD0A16 /* CJFormController.m */; };
+		3FAF010017175B5200FD0A16 /* CJFormNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00E417175B5200FD0A16 /* CJFormNavigationController.m */; };
+		3FAF010117175B5200FD0A16 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3FAF00E617175B5200FD0A16 /* .gitkeep */; };
+		3FAF010217175B5200FD0A16 /* CJFormElementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00E917175B5200FD0A16 /* CJFormElementCell.m */; };
+		3FAF010317175B5200FD0A16 /* CJDatePikerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00EC17175B5200FD0A16 /* CJDatePikerCell.m */; };
+		3FAF010417175B5200FD0A16 /* CJSegmentedControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00EE17175B5200FD0A16 /* CJSegmentedControlCell.m */; };
+		3FAF010517175B5200FD0A16 /* CJSelectOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00F117175B5200FD0A16 /* CJSelectOptionCell.m */; };
+		3FAF010617175B5200FD0A16 /* CJSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00F317175B5200FD0A16 /* CJSelectCell.m */; };
+		3FAF010717175B5200FD0A16 /* CJSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00F517175B5200FD0A16 /* CJSliderCell.m */; };
+		3FAF010817175B5200FD0A16 /* CJSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00F717175B5200FD0A16 /* CJSwitchCell.m */; };
+		3FAF010917175B5200FD0A16 /* CJTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00F917175B5200FD0A16 /* CJTextFieldCell.m */; };
+		3FAF010A17175B5200FD0A16 /* CJTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00FB17175B5200FD0A16 /* CJTextViewCell.m */; };
+		3FAF010B17175B5200FD0A16 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3FAF00FD17175B5200FD0A16 /* .gitkeep */; };
+		3FAF014117175BD900FD0A16 /* NSString+CJStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF014017175BD900FD0A16 /* NSString+CJStringValidator.m */; };
+		3FAF014517175BDF00FD0A16 /* GCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF014417175BDF00FD0A16 /* GCPlaceholderTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,21 +44,54 @@
 		3F4873E116DEB45B0082AF70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F4873E316DEB45B0082AF70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F4873E516DEB45B0082AF70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F4873E916DEB45B0082AF70 /* CJFormSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CJFormSample-Info.plist"; sourceTree = "<group>"; };
+		3F4873E916DEB45B0082AF70 /* FormSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FormSample-Info.plist"; sourceTree = "<group>"; };
 		3F4873EB16DEB45B0082AF70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F4873ED16DEB45B0082AF70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F4873EF16DEB45B0082AF70 /* CJFormSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJFormSample-Prefix.pch"; sourceTree = "<group>"; };
+		3F4873EF16DEB45B0082AF70 /* FormSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FormSample-Prefix.pch"; sourceTree = "<group>"; };
 		3F4873F016DEB45B0082AF70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F4873F116DEB45B0082AF70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F4873FF16DEB4690082AF70 /* .gitkep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkep; sourceTree = "<group>"; };
-		3F48740316DEB4690082AF70 /* .gitkep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkep; sourceTree = "<group>"; };
-		3F48740516DEB4690082AF70 /* .gitkep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkep; sourceTree = "<group>"; };
-		3F48740716DEB4690082AF70 /* .gitkep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkep; sourceTree = "<group>"; };
-		3F48740916DEB4690082AF70 /* .gitkep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkep; sourceTree = "<group>"; };
-		3F48740B16DEB4690082AF70 /* .gitkep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkep; sourceTree = "<group>"; };
 		3F48741216DEB5850082AF70 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F48741316DEB5850082AF70 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3F48741416DEB5850082AF70 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F660B49170CCC5000D4A217 /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
+		3F660B4A170CCC5000D4A217 /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
+		3F660B541713571E00D4A217 /* AccelerometreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometreViewController.h; sourceTree = "<group>"; };
+		3F660B551713571E00D4A217 /* AccelerometreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometreViewController.m; sourceTree = "<group>"; };
+		3F660B5717135AE300D4A217 /* son.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = son.mp3; sourceTree = "<group>"; };
+		3F660B5917135B0200D4A217 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F660B5D1713631100D4A217 /* UISelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISelectTableViewController.h; sourceTree = "<group>"; };
+		3F660B5E1713631100D4A217 /* UISelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISelectTableViewController.m; sourceTree = "<group>"; };
+		3FAF00DC17175B5200FD0A16 /* UIWindow+KeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+KeyBoard.h"; sourceTree = "<group>"; };
+		3FAF00DD17175B5200FD0A16 /* UIWindow+KeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+KeyBoard.m"; sourceTree = "<group>"; };
+		3FAF00DE17175B5200FD0A16 /* CJForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJForm.h; sourceTree = "<group>"; };
+		3FAF00E117175B5200FD0A16 /* CJFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFormController.h; sourceTree = "<group>"; };
+		3FAF00E217175B5200FD0A16 /* CJFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFormController.m; sourceTree = "<group>"; };
+		3FAF00E317175B5200FD0A16 /* CJFormNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFormNavigationController.h; sourceTree = "<group>"; };
+		3FAF00E417175B5200FD0A16 /* CJFormNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFormNavigationController.m; sourceTree = "<group>"; };
+		3FAF00E617175B5200FD0A16 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3FAF00E817175B5200FD0A16 /* CJFormElementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFormElementCell.h; sourceTree = "<group>"; };
+		3FAF00E917175B5200FD0A16 /* CJFormElementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFormElementCell.m; sourceTree = "<group>"; };
+		3FAF00EB17175B5200FD0A16 /* CJDatePikerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJDatePikerCell.h; sourceTree = "<group>"; };
+		3FAF00EC17175B5200FD0A16 /* CJDatePikerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJDatePikerCell.m; sourceTree = "<group>"; };
+		3FAF00ED17175B5200FD0A16 /* CJSegmentedControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSegmentedControlCell.h; sourceTree = "<group>"; };
+		3FAF00EE17175B5200FD0A16 /* CJSegmentedControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSegmentedControlCell.m; sourceTree = "<group>"; };
+		3FAF00F017175B5200FD0A16 /* CJSelectOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSelectOptionCell.h; sourceTree = "<group>"; };
+		3FAF00F117175B5200FD0A16 /* CJSelectOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSelectOptionCell.m; sourceTree = "<group>"; };
+		3FAF00F217175B5200FD0A16 /* CJSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSelectCell.h; sourceTree = "<group>"; };
+		3FAF00F317175B5200FD0A16 /* CJSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSelectCell.m; sourceTree = "<group>"; };
+		3FAF00F417175B5200FD0A16 /* CJSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSliderCell.h; sourceTree = "<group>"; };
+		3FAF00F517175B5200FD0A16 /* CJSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSliderCell.m; sourceTree = "<group>"; };
+		3FAF00F617175B5200FD0A16 /* CJSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSwitchCell.h; sourceTree = "<group>"; };
+		3FAF00F717175B5200FD0A16 /* CJSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSwitchCell.m; sourceTree = "<group>"; };
+		3FAF00F817175B5200FD0A16 /* CJTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTextFieldCell.h; sourceTree = "<group>"; };
+		3FAF00F917175B5200FD0A16 /* CJTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTextFieldCell.m; sourceTree = "<group>"; };
+		3FAF00FA17175B5200FD0A16 /* CJTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTextViewCell.h; sourceTree = "<group>"; };
+		3FAF00FB17175B5200FD0A16 /* CJTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTextViewCell.m; sourceTree = "<group>"; };
+		3FAF00FD17175B5200FD0A16 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3FAF013F17175BD900FD0A16 /* NSString+CJStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CJStringValidator.h"; sourceTree = "<group>"; };
+		3FAF014017175BD900FD0A16 /* NSString+CJStringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CJStringValidator.m"; sourceTree = "<group>"; };
+		3FAF014317175BDF00FD0A16 /* GCPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPlaceholderTextView.h; sourceTree = "<group>"; };
+		3FAF014417175BDF00FD0A16 /* GCPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCPlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F660B5A17135B0300D4A217 /* AVFoundation.framework in Frameworks */,
 				3F4873E216DEB45B0082AF70 /* UIKit.framework in Frameworks */,
 				3F4873E416DEB45B0082AF70 /* Foundation.framework in Frameworks */,
 				3F4873E616DEB45B0082AF70 /* CoreGraphics.framework in Frameworks */,
@@ -104,10 +153,10 @@
 		3F4873E816DEB45B0082AF70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F4873E916DEB45B0082AF70 /* CJFormSample-Info.plist */,
+				3F4873E916DEB45B0082AF70 /* FormSample-Info.plist */,
 				3F4873EA16DEB45B0082AF70 /* InfoPlist.strings */,
 				3F4873ED16DEB45B0082AF70 /* main.m */,
-				3F4873EF16DEB45B0082AF70 /* CJFormSample-Prefix.pch */,
+				3F4873EF16DEB45B0082AF70 /* FormSample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,7 +164,6 @@
 		3F4873FE16DEB4690082AF70 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				3F4873FF16DEB4690082AF70 /* .gitkep */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -124,7 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				3F48740116DEB4690082AF70 /* Controllers */,
-				3F48740416DEB4690082AF70 /* Models */,
 				3F48740616DEB4690082AF70 /* Views */,
 			);
 			path = Classes;
@@ -133,6 +180,7 @@
 		3F48740116DEB4690082AF70 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3F660B5B17135B5000D4A217 /* Sound-accelerometer */,
 				3F48740216DEB4690082AF70 /* Forms */,
 			);
 			path = Controllers;
@@ -141,23 +189,16 @@
 		3F48740216DEB4690082AF70 /* Forms */ = {
 			isa = PBXGroup;
 			children = (
-				3F48740316DEB4690082AF70 /* .gitkep */,
+				3F660B49170CCC5000D4A217 /* FormViewController.h */,
+				3F660B4A170CCC5000D4A217 /* FormViewController.m */,
+				3F660B5C171362DB00D4A217 /* Select */,
 			);
 			path = Forms;
-			sourceTree = "<group>";
-		};
-		3F48740416DEB4690082AF70 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				3F48740516DEB4690082AF70 /* .gitkep */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		3F48740616DEB4690082AF70 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3F48740716DEB4690082AF70 /* .gitkep */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,7 +209,6 @@
 				3F48741216DEB5850082AF70 /* Default-568h@2x.png */,
 				3F48741316DEB5850082AF70 /* Default.png */,
 				3F48741416DEB5850082AF70 /* Default@2x.png */,
-				3F48740916DEB4690082AF70 /* .gitkep */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -176,9 +216,150 @@
 		3F48740A16DEB4690082AF70 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				3F48740B16DEB4690082AF70 /* .gitkep */,
+				3FAF014217175BDF00FD0A16 /* GCPlaceholderTextView */,
+				3FAF013E17175BD900FD0A16 /* CJStringValidator */,
+				3FAF00DA17175B5200FD0A16 /* CJForm */,
 			);
 			path = Vendors;
+			sourceTree = "<group>";
+		};
+		3F660B5B17135B5000D4A217 /* Sound-accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				3F660B5917135B0200D4A217 /* AVFoundation.framework */,
+				3F660B5717135AE300D4A217 /* son.mp3 */,
+				3F660B541713571E00D4A217 /* AccelerometreViewController.h */,
+				3F660B551713571E00D4A217 /* AccelerometreViewController.m */,
+			);
+			name = "Sound-accelerometer";
+			sourceTree = "<group>";
+		};
+		3F660B5C171362DB00D4A217 /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				3F660B5D1713631100D4A217 /* UISelectTableViewController.h */,
+				3F660B5E1713631100D4A217 /* UISelectTableViewController.m */,
+			);
+			name = Select;
+			sourceTree = "<group>";
+		};
+		3FAF00DA17175B5200FD0A16 /* CJForm */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00DB17175B5200FD0A16 /* Categories */,
+				3FAF00DE17175B5200FD0A16 /* CJForm.h */,
+				3FAF00DF17175B5200FD0A16 /* Classes */,
+				3FAF00FC17175B5200FD0A16 /* Ressources */,
+			);
+			name = CJForm;
+			path = ../../../CJForm;
+			sourceTree = "<group>";
+		};
+		3FAF00DB17175B5200FD0A16 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00DC17175B5200FD0A16 /* UIWindow+KeyBoard.h */,
+				3FAF00DD17175B5200FD0A16 /* UIWindow+KeyBoard.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3FAF00DF17175B5200FD0A16 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00E017175B5200FD0A16 /* Controllers */,
+				3FAF00E517175B5200FD0A16 /* Models */,
+				3FAF00E717175B5200FD0A16 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3FAF00E017175B5200FD0A16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00E117175B5200FD0A16 /* CJFormController.h */,
+				3FAF00E217175B5200FD0A16 /* CJFormController.m */,
+				3FAF00E317175B5200FD0A16 /* CJFormNavigationController.h */,
+				3FAF00E417175B5200FD0A16 /* CJFormNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FAF00E517175B5200FD0A16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00E617175B5200FD0A16 /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FAF00E717175B5200FD0A16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00E817175B5200FD0A16 /* CJFormElementCell.h */,
+				3FAF00E917175B5200FD0A16 /* CJFormElementCell.m */,
+				3FAF00EA17175B5200FD0A16 /* CJFormElements */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FAF00EA17175B5200FD0A16 /* CJFormElements */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00EB17175B5200FD0A16 /* CJDatePikerCell.h */,
+				3FAF00EC17175B5200FD0A16 /* CJDatePikerCell.m */,
+				3FAF00ED17175B5200FD0A16 /* CJSegmentedControlCell.h */,
+				3FAF00EE17175B5200FD0A16 /* CJSegmentedControlCell.m */,
+				3FAF00F217175B5200FD0A16 /* CJSelectCell.h */,
+				3FAF00F317175B5200FD0A16 /* CJSelectCell.m */,
+				3FAF00EF17175B5200FD0A16 /* CJSelect */,
+				3FAF00F417175B5200FD0A16 /* CJSliderCell.h */,
+				3FAF00F517175B5200FD0A16 /* CJSliderCell.m */,
+				3FAF00F617175B5200FD0A16 /* CJSwitchCell.h */,
+				3FAF00F717175B5200FD0A16 /* CJSwitchCell.m */,
+				3FAF00F817175B5200FD0A16 /* CJTextFieldCell.h */,
+				3FAF00F917175B5200FD0A16 /* CJTextFieldCell.m */,
+				3FAF00FA17175B5200FD0A16 /* CJTextViewCell.h */,
+				3FAF00FB17175B5200FD0A16 /* CJTextViewCell.m */,
+			);
+			path = CJFormElements;
+			sourceTree = "<group>";
+		};
+		3FAF00EF17175B5200FD0A16 /* CJSelect */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00F017175B5200FD0A16 /* CJSelectOptionCell.h */,
+				3FAF00F117175B5200FD0A16 /* CJSelectOptionCell.m */,
+			);
+			path = CJSelect;
+			sourceTree = "<group>";
+		};
+		3FAF00FC17175B5200FD0A16 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF00FD17175B5200FD0A16 /* .gitkeep */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		3FAF013E17175BD900FD0A16 /* CJStringValidator */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF013F17175BD900FD0A16 /* NSString+CJStringValidator.h */,
+				3FAF014017175BD900FD0A16 /* NSString+CJStringValidator.m */,
+			);
+			name = CJStringValidator;
+			path = ../../../submodules/CJStringValidator/CJStringValidator;
+			sourceTree = "<group>";
+		};
+		3FAF014217175BDF00FD0A16 /* GCPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF014317175BDF00FD0A16 /* GCPlaceholderTextView.h */,
+				3FAF014417175BDF00FD0A16 /* GCPlaceholderTextView.m */,
+			);
+			name = GCPlaceholderTextView;
+			path = ../../../submodules/GCPlaceholderTextView/GCPlaceholderTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,15 +414,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F4873EC16DEB45B0082AF70 /* InfoPlist.strings in Resources */,
-				3F48740C16DEB4690082AF70 /* .gitkep in Resources */,
-				3F48740D16DEB4690082AF70 /* .gitkep in Resources */,
-				3F48740E16DEB4690082AF70 /* .gitkep in Resources */,
-				3F48740F16DEB4690082AF70 /* .gitkep in Resources */,
-				3F48741016DEB4690082AF70 /* .gitkep in Resources */,
-				3F48741116DEB4690082AF70 /* .gitkep in Resources */,
 				3F48741516DEB5850082AF70 /* Default-568h@2x.png in Resources */,
 				3F48741616DEB5850082AF70 /* Default.png in Resources */,
 				3F48741716DEB5850082AF70 /* Default@2x.png in Resources */,
+				3F660B5817135AE400D4A217 /* son.mp3 in Resources */,
+				3FAF010117175B5200FD0A16 /* .gitkeep in Resources */,
+				3FAF010B17175B5200FD0A16 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +432,23 @@
 			files = (
 				3F4873EE16DEB45B0082AF70 /* main.m in Sources */,
 				3F4873F216DEB45B0082AF70 /* AppDelegate.m in Sources */,
+				3F660B4B170CCC5000D4A217 /* FormViewController.m in Sources */,
+				3F660B561713571E00D4A217 /* AccelerometreViewController.m in Sources */,
+				3F660B5F1713631100D4A217 /* UISelectTableViewController.m in Sources */,
+				3FAF00FE17175B5200FD0A16 /* UIWindow+KeyBoard.m in Sources */,
+				3FAF00FF17175B5200FD0A16 /* CJFormController.m in Sources */,
+				3FAF010017175B5200FD0A16 /* CJFormNavigationController.m in Sources */,
+				3FAF010217175B5200FD0A16 /* CJFormElementCell.m in Sources */,
+				3FAF010317175B5200FD0A16 /* CJDatePikerCell.m in Sources */,
+				3FAF010417175B5200FD0A16 /* CJSegmentedControlCell.m in Sources */,
+				3FAF010517175B5200FD0A16 /* CJSelectOptionCell.m in Sources */,
+				3FAF010617175B5200FD0A16 /* CJSelectCell.m in Sources */,
+				3FAF010717175B5200FD0A16 /* CJSliderCell.m in Sources */,
+				3FAF010817175B5200FD0A16 /* CJSwitchCell.m in Sources */,
+				3FAF010917175B5200FD0A16 /* CJTextFieldCell.m in Sources */,
+				3FAF010A17175B5200FD0A16 /* CJTextViewCell.m in Sources */,
+				3FAF014117175BD900FD0A16 /* NSString+CJStringValidator.m in Sources */,
+				3FAF014517175BDF00FD0A16 /* GCPlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +491,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +516,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,8 +528,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CJFormSample/CJFormSample-Prefix.pch";
-				INFOPLIST_FILE = "CJFormSample/CJFormSample-Info.plist";
+				GCC_PREFIX_HEADER = "CJFormSample/FormSample-Prefix.pch";
+				INFOPLIST_FILE = "CJFormSample/FormSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -344,8 +539,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CJFormSample/CJFormSample-Prefix.pch";
-				INFOPLIST_FILE = "CJFormSample/CJFormSample-Info.plist";
+				GCC_PREFIX_HEADER = "CJFormSample/FormSample-Prefix.pch";
+				INFOPLIST_FILE = "CJFormSample/FormSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

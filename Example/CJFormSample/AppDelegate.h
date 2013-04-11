@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  CJFormSample
+//  CJForm
 //
 //  Created by Jeremy on 27/02/13.
 //  Copyright (c) 2013 chaufourier. All rights reserved.
@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class FormViewController;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    FormViewController *rootViewController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
