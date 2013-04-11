@@ -1,0 +1,6 @@
+[submodule "submodules/CJStringValidator"]
+	path = submodules/CJStringValidator
+	url = https://github.com/batosai/CJStringValidator.git
+[submodule "submodules/GCPlaceholderTextView"]
+	path = submodules/GCPlaceholderTextView
+	url = https://github.com/gcamp/GCPlaceholderTextView.git
