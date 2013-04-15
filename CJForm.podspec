@@ -8,4 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/batosai/CJForm.git", :tag => "0.1" }
   s.platform     = :ios, '5.0'
   s.source_files = 'CJForm'
+  s.requires_arc = true
+  s.dependency 'CJStringValidator', '~> 1.0.1'
+  s.dependency 'GCPlaceholderTextView', '~> 1.0.1'
 end
