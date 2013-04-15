@@ -17,9 +17,6 @@
 		3F48741616DEB5850082AF70 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F48741316DEB5850082AF70 /* Default.png */; };
 		3F48741716DEB5850082AF70 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F48741416DEB5850082AF70 /* Default@2x.png */; };
 		3F660B4B170CCC5000D4A217 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F660B4A170CCC5000D4A217 /* FormViewController.m */; };
-		3F660B561713571E00D4A217 /* AccelerometreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F660B551713571E00D4A217 /* AccelerometreViewController.m */; };
-		3F660B5817135AE400D4A217 /* son.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F660B5717135AE300D4A217 /* son.mp3 */; };
-		3F660B5A17135B0300D4A217 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F660B5917135B0200D4A217 /* AVFoundation.framework */; };
 		3F660B5F1713631100D4A217 /* UISelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F660B5E1713631100D4A217 /* UISelectTableViewController.m */; };
 		3FAF00FE17175B5200FD0A16 /* UIWindow+KeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00DD17175B5200FD0A16 /* UIWindow+KeyBoard.m */; };
 		3FAF00FF17175B5200FD0A16 /* CJFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF00E217175B5200FD0A16 /* CJFormController.m */; };
@@ -55,10 +52,6 @@
 		3F48741416DEB5850082AF70 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3F660B49170CCC5000D4A217 /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
 		3F660B4A170CCC5000D4A217 /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
-		3F660B541713571E00D4A217 /* AccelerometreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometreViewController.h; sourceTree = "<group>"; };
-		3F660B551713571E00D4A217 /* AccelerometreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometreViewController.m; sourceTree = "<group>"; };
-		3F660B5717135AE300D4A217 /* son.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = son.mp3; sourceTree = "<group>"; };
-		3F660B5917135B0200D4A217 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3F660B5D1713631100D4A217 /* UISelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISelectTableViewController.h; sourceTree = "<group>"; };
 		3F660B5E1713631100D4A217 /* UISelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISelectTableViewController.m; sourceTree = "<group>"; };
 		3FAF00DC17175B5200FD0A16 /* UIWindow+KeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+KeyBoard.h"; sourceTree = "<group>"; };
@@ -99,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F660B5A17135B0300D4A217 /* AVFoundation.framework in Frameworks */,
 				3F4873E216DEB45B0082AF70 /* UIKit.framework in Frameworks */,
 				3F4873E416DEB45B0082AF70 /* Foundation.framework in Frameworks */,
 				3F4873E616DEB45B0082AF70 /* CoreGraphics.framework in Frameworks */,
@@ -180,7 +172,6 @@
 		3F48740116DEB4690082AF70 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3F660B5B17135B5000D4A217 /* Sound-accelerometer */,
 				3F48740216DEB4690082AF70 /* Forms */,
 			);
 			path = Controllers;
@@ -221,17 +212,6 @@
 				3FAF00DA17175B5200FD0A16 /* CJForm */,
 			);
 			path = Vendors;
-			sourceTree = "<group>";
-		};
-		3F660B5B17135B5000D4A217 /* Sound-accelerometer */ = {
-			isa = PBXGroup;
-			children = (
-				3F660B5917135B0200D4A217 /* AVFoundation.framework */,
-				3F660B5717135AE300D4A217 /* son.mp3 */,
-				3F660B541713571E00D4A217 /* AccelerometreViewController.h */,
-				3F660B551713571E00D4A217 /* AccelerometreViewController.m */,
-			);
-			name = "Sound-accelerometer";
 			sourceTree = "<group>";
 		};
 		3F660B5C171362DB00D4A217 /* Select */ = {
@@ -417,7 +397,6 @@
 				3F48741516DEB5850082AF70 /* Default-568h@2x.png in Resources */,
 				3F48741616DEB5850082AF70 /* Default.png in Resources */,
 				3F48741716DEB5850082AF70 /* Default@2x.png in Resources */,
-				3F660B5817135AE400D4A217 /* son.mp3 in Resources */,
 				3FAF010117175B5200FD0A16 /* .gitkeep in Resources */,
 				3FAF010B17175B5200FD0A16 /* .gitkeep in Resources */,
 			);
@@ -433,7 +412,6 @@
 				3F4873EE16DEB45B0082AF70 /* main.m in Sources */,
 				3F4873F216DEB45B0082AF70 /* AppDelegate.m in Sources */,
 				3F660B4B170CCC5000D4A217 /* FormViewController.m in Sources */,
-				3F660B561713571E00D4A217 /* AccelerometreViewController.m in Sources */,
 				3F660B5F1713631100D4A217 /* UISelectTableViewController.m in Sources */,
 				3FAF00FE17175B5200FD0A16 /* UIWindow+KeyBoard.m in Sources */,
 				3FAF00FF17175B5200FD0A16 /* CJFormController.m in Sources */,
