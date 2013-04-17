@@ -42,6 +42,10 @@
     [self layoutIfNeeded];
 }
 
+- (void)setValue:(NSString *)value {
+    _textField.text = value;
+}
+
 - (NSString*)value {
     return _textField.text;
 }
