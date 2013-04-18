@@ -46,6 +46,22 @@
 }
 
 - (BOOL)isValid {
+
+    __block BOOL require = _require;
+
+    if (!block) {
+        block = ^BOOL(id element) {
+            NSString *data = [element valueForKey:@"value"];
+
+            if ( (!data || [data isEmpty]) && require ) {
+                return NO;
+            }
+            else {
+                return YES;
+            }
+        };
+    }
+
     return block(self);
 }
 
