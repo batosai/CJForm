@@ -41,7 +41,7 @@
 - (void)setFrame:(CGRect)frame {
     [super setFrame:frame];
 
-    frame.size.height -= 1;
+    frame.size.height -= 8;
     frame.origin = CGPointZero;
 
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
